@@ -1,0 +1,110 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+   
+  }
+  
+  * {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  
+  .bg-img {
+    /* The image used */
+    background-image: url("bg-intro-desktop.png");
+    background-color: #ff6b6b;
+
+  
+    /* Control the height of the image */
+    min-height: 820px;
+   
+
+    /* Center and scale the image nicely */
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .input{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    margin-right: 80px;
+    margin-bottom: 90%;
+    margin-top: 30;
+    max-width: 450px;
+    background-color: #341f97;
+    color: white;
+    padding: 16px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+span{
+    color: red;
+}
+
+.bg{
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+    top: 300px;
+    margin-bottom: 10;
+    color: #f1f1f1;
+}
+
+strong{
+    font-weight:bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+  
+  /* Add styles to the form container */
+  .container {
+    position: absolute;
+    right: 0;
+    top: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    max-width: 450px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #c8d6e5;
+  }
+  
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border-radius: 10px;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  @media all {min-width}
